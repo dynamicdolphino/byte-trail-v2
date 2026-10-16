@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFF8E7">
+<link rel="icon" href="data:,">
+<title>Byte Trail</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #FFF8E7; overflow: hidden; overscroll-behavior: none; }
+  canvas {
+    display: block; width: 100vw; height: 100vh; height: 100dvh; outline: none;
+    touch-action: none; user-select: none; -webkit-user-select: none;
+    -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+  }
+  #safe-top { position: fixed; top: 0; left: 0; width: 0; height: env(safe-area-inset-top, 0px); pointer-events: none; }
+</style>
+</head>
+<body>
+<canvas id="game" aria-label="Byte Trail. Drag or use the arrow keys to steer. Tap or press Space to start."></canvas>
+<div id="safe-top"></div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
