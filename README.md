@@ -1,5 +1,12 @@
 # Byte Trail v2 (Comic Edition)
 
+[![Play](https://img.shields.io/badge/play-live%20demo-FF2D95)](https://dynamicdolphino.github.io/byte-trail-v2/)
+[![Stack](https://img.shields.io/badge/stack-vanilla%20JS%20%2B%20canvas-1E6BFF)](src/)
+[![Dependencies](https://img.shields.io/badge/dependencies-none-34C759)](index.html)
+[![Build size](https://img.shields.io/badge/zip-~22%20KB-FFD60A)](tools/zip.py)
+
+**Play it on your phone:** https://dynamicdolphino.github.io/byte-trail-v2/
+
 Mobile-first 2D comic-book runner. Steer Glitch, grow a tail of bytes through math gates, eat smaller bug-snakes, dodge scanner cones and break the FIREWALL at the end of each level.
 
 Plain HTML, vanilla JS modules and one `<canvas>`. No build step for development, no dependencies, no network calls in the web build. All art and sound are generated in code.
